@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1795368231.40677 "c:/NPMP-projekt/Skupina18/main.tex" "main.pdf" "main" 1795368234.38345 0
+["pdflatex"] 1795369029.9887 "c:/NPMP-projekt/Skupina18/main.tex" "main.pdf" "main" 1795369032.61748 0
   "C:/Program Files/MiKTeX/tex/latex/listings/lstpatch.sty" 1763898348 353 9024412f43e92cd5b21fe9ded82d0610 ""
-  "C:/Users/cehne/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1795352046 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/cehne/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1795369013 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/cehne/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1794945150 24225328 ddd39a635bb87ba4ac957222d9082673 ""
   "C:/Users/cehne/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/cehne/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -146,7 +146,7 @@
   "C:/Users/cehne/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1700599895 12935 94a3291359b5f73ff1b19345a6983105 ""
   "C:/Users/cehne/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/cehne/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/NPMP-projekt/Skupina18/main.tex" 1795368224 45737 7017dc6fdeac7b43fc7f726f950fdbfd ""
+  "c:/NPMP-projekt/Skupina18/main.tex" 1795369028 45736 1c19a7325152f85d956b147fef7ce61d ""
   "img/Figure_1.pdf" 1795350636 24277 4db5a37bed8684164d00180314882196 ""
   "img/Figure_2.pdf" 1795350640 24789 63092f58bb3dd74af942bce6184db3ec ""
   "img/Figure_3.png" 1795350645 62437 a0998d529f817df6580b02a35101f1c0 ""
@@ -156,9 +156,9 @@
   "img/wang_vrata.png" 1795350672 37789 eff84c6f745f16b51618fbdd24d3afdf ""
   "img/wang_vrata_brez12.png" 1795350670 37449 5d80af300b2b50a5b0c0c036c51554b4 ""
   "img/wang_vrata_brez2.png" 1795350667 37713 6ab502df881751ae48c1b4ddff0eaa1d ""
-  "main.aux" 1795368233 13503 7aa1d084ffe9ec6e8f10b3bd35d63854 "pdflatex"
-  "main.out" 1795368233 5347 8c9459f5bd0cf8a98c0235b0cedbe8e6 "pdflatex"
-  "main.tex" 1795368224 45737 7017dc6fdeac7b43fc7f726f950fdbfd ""
+  "main.aux" 1795369032 13503 7aa1d084ffe9ec6e8f10b3bd35d63854 "pdflatex"
+  "main.out" 1795369032 5347 8c9459f5bd0cf8a98c0235b0cedbe8e6 "pdflatex"
+  "main.tex" 1795369028 45736 1c19a7325152f85d956b147fef7ce61d ""
   (generated)
   "main.aux"
   "main.log"
