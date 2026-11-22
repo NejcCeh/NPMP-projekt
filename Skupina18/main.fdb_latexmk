@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1795369334.06941 "c:/NPMP-projekt/Skupina18/main.tex" "main.pdf" "main" 1795369337.53964 0
+["pdflatex"] 1795373716.77609 "c:/NPMP-projekt/Skupina18/main.tex" "main.pdf" "main" 1795373719.65326 0
   "C:/Program Files/MiKTeX/tex/latex/listings/lstpatch.sty" 1763898348 353 9024412f43e92cd5b21fe9ded82d0610 ""
   "C:/Users/cehne/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1795369013 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/cehne/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1794945150 24225328 ddd39a635bb87ba4ac957222d9082673 ""
@@ -146,7 +146,7 @@
   "C:/Users/cehne/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1700599895 12935 94a3291359b5f73ff1b19345a6983105 ""
   "C:/Users/cehne/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/cehne/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/NPMP-projekt/Skupina18/main.tex" 1795369332 45736 4ddf187df76b36387fbd32a7a1afbf0b ""
+  "c:/NPMP-projekt/Skupina18/main.tex" 1795373711 46041 f9de8aa747dd8bd0bfc31c792cf50ff0 ""
   "img/Figure_1.pdf" 1795350636 24277 4db5a37bed8684164d00180314882196 ""
   "img/Figure_2.pdf" 1795350640 24789 63092f58bb3dd74af942bce6184db3ec ""
   "img/Figure_3.png" 1795350645 62437 a0998d529f817df6580b02a35101f1c0 ""
@@ -156,9 +156,9 @@
   "img/wang_vrata.png" 1795350672 37789 eff84c6f745f16b51618fbdd24d3afdf ""
   "img/wang_vrata_brez12.png" 1795350670 37449 5d80af300b2b50a5b0c0c036c51554b4 ""
   "img/wang_vrata_brez2.png" 1795350667 37713 6ab502df881751ae48c1b4ddff0eaa1d ""
-  "main.aux" 1795369336 13503 7aa1d084ffe9ec6e8f10b3bd35d63854 "pdflatex"
-  "main.out" 1795369336 5347 8c9459f5bd0cf8a98c0235b0cedbe8e6 "pdflatex"
-  "main.tex" 1795369332 45736 4ddf187df76b36387fbd32a7a1afbf0b ""
+  "main.aux" 1795373719 13500 e1072feceea74e251ef10fc8a7e35f07 "pdflatex"
+  "main.out" 1795373719 5347 8c9459f5bd0cf8a98c0235b0cedbe8e6 "pdflatex"
+  "main.tex" 1795373711 46041 f9de8aa747dd8bd0bfc31c792cf50ff0 ""
   (generated)
   "main.aux"
   "main.log"

@@ -42,7 +42,7 @@ odpornost večinskih logičnih vrat}
 
 
 \abstract{
-V seminarski nalogi raziskujemo vpliv geometrijskih odmikov kvantnih celičnih avtomatov (QCA) na delovanje večinskih logičnih vrat. Primerjamo osnovna petcelična večinska vrata in alternativna vrata, odporna na določene vrste napak,
+V seminarski nalogi raziskujemo vpliv geometrijskih odmikov celic v kvantnih celičnih avtomatih (QCA) na delovanje večinskih logičnih vrat. Primerjamo osnovna petcelična večinska vrata in alternativna vrata, odporna na določene vrste napak,
 ki so jih predstavili Wang in sodelavci. S simulacijami v programu QCADesigner-E analiziramo odmike posameznih celic v različnih smereh ter spremljamo pravilnost logične funkcije in izhodno polarizacijo.
 Dodatno analiziramo spremembe elektrostatičnih interakcij pri premikanju osrednje celice osnovnih vrat. Rezultati kažejo, da so manjši odmiki praviloma manj problematični, medtem ko lahko večji odmiki povzročijo
 nepravilno delovanje. Pri Wangovih vratih opazimo večjo odpornost notranjih celic, medtem ko so premiki vhodnih in izhodne celice lahko občutljivejši. Ugotovitve poudarjajo pomen geometrijske razporeditve
@@ -65,9 +65,9 @@ V seminarski nalogi analiziramo vpliv geometrijskih odmikov na osnovna petcelič
 ki so jih predstavili Wang in sodelavci~\cite{g18:wang2018}. Slednja so zasnovana za večjo odpornost na določene napake, predvsem na manjkajoče
 celice. Zanima nas, ali so odporna tudi na spremembe položajev posameznih celic.
 
-\textbf{Raziskovalno vprašanje:}Kako velikost, smer in položaj geometrijskega odmika posamezne QCA celice vplivajo na pravilnost delovanja osnovnih in Wangovih večinskih vrat?
+\textbf{Raziskovalno vprašanje: }Kako velikost, smer in položaj geometrijskega odmika posamezne QCA celice vplivajo na pravilnost delovanja osnovnih in Wangovih večinskih vrat?
 
-\textbf{Pričakovani rezultati:}Pričakujemo, da bodo manjši odmiki večinoma ohranili pravilno delovanje, večji pa povzročili več napak.
+\textbf{Pričakovani rezultati: }Pričakujemo, da bodo manjši odmiki večinoma ohranili pravilno delovanje, večji pa povzročili več napak.
 Predvidevamo tudi, da bodo Wangova vrata odpornejša na odmike notranjih celic kot na odmike vhodnih in izhodne celice.
 
 V nadaljevanju predstavimo uporabljene metode in simulacijske nastavitve, rezultate obeh struktur ter matematično analizo
@@ -710,7 +710,7 @@ Tu sta $q$ in $r$ naboj ter položaj kvantne pike, $\varepsilon_0$ in $\varepsil
 \subsubsection{Rezultati simulacij interakcijskih koeficientov}
 \label{g18:sec:interakcijski-koeficienti}
 
-Notranjo celico smo premikali za 0,5, 1, 1,5 in 2 nm v vseh štirih smereh, pri nespremenjenih preostalih celicah in simulacijskih nastavitvah. Pri 2 nm se robova sosednjih celic stikata. Iz energijskih izpisov smo odčitali koeficiente povezav med notranjo celico ter celicami $A$, $B$, $C$ in $Y$ (tabeli~\ref{g18:tab:energija-vodoravno} in~\ref{g18:tab:energija-navpicno}).
+Notranjo celico smo premikali za 0.5, 1, 1.5 in 2 nm v vseh štirih smereh, pri nespremenjenih preostalih celicah in simulacijskih nastavitvah. Pri 2 nm se robova sosednjih celic stikata. Iz energijskih izpisov smo razbrali koeficiente povezav med notranjo celico ter celicami $A$, $B$, $C$ in $Y$ (tabeli~\ref{g18:tab:energija-vodoravno} in~\ref{g18:tab:energija-navpicno}).
 
 \noindent Brez odmika: $K_A$ = $K_B$ = $K_C$ = $K_Y$ = 1.484 meV
 
@@ -859,7 +859,7 @@ E(P_M)=\sum_{X\in\{A,B,C\}}\sum_{i\in D_X}\sum_{j\in D_M}
 \frac{e^2}{4\pi\varepsilon_0\varepsilon_r\,r_{ij}},\qquad
 r_{ij}=\sqrt{(x_i-x_j)^2+(y_i-y_j)^2}.
 \end{equation}
-Množici $D_X$ in $D_M$ vsebujeta položaja dveh zasedenih pik posamezne celice. Vse razdalje in energije za obe možnosti $P_M\in\{-1,+1\}$ smo izračunali v Pythonu.
+Množici $D_X$ in $D_M$ vsebujeta položaja dveh zasedenih pik posamezne celice. $D_X$ upošteva vhodne celice, $D_M$ pa notranjo celico. Vse razdalje in energije za obe možnosti $P_M\in\{-1,+1\}$ smo izračunali v Pythonu.
 
 \paragraph{Rezultati in primerjava.}
 
@@ -890,7 +890,7 @@ Pri 0 in 1 nm je energijsko ugodnejša pravilna polarizacija $-1$, pri 2 nm pa s
 
 \begin{table}[H]
     \centering
-    \caption{Primerjava matematičnih napovedi za vhodno kombinacijo $(+1,-1,-1)$ in števila pravilnih izhodnih kombinacij v simulaciji (od vseh osmih).}
+    \caption{Primerjava matematičnih napovedi za vhodno kombinacijo $(+1,-1,-1)$ in števila pravilnih izhodnih kombinacij v simulaciji.}
     \label{g18:tab:primerjava-modelov}
     \small
     \resizebox{\linewidth}{!}{%
@@ -980,6 +980,13 @@ Journal of Electronic Science and Technology,
 21(1), 100183, 2023.
 
 \url{https://www.sciencedirect.com/science/article/pii/S1674862X23000010}
+
+\bibitem{g18:fri-skripta}
+Univerza v Ljubljani, Fakulteta za računalništvo in informatiko,
+\textit{2. poglavje}, študijsko gradivo,
+Spletna učilnica FRI.
+
+\url{https://ucilnica.fri.uni-lj.si/pluginfile.php/2601/mod_label/intro/2_poglavje.pdf}
 
 \end{thebibliography}
 
