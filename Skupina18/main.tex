@@ -758,7 +758,7 @@ Notranjo celico smo premikali za 0.5, 1, 1.5 in 2 nm v vseh štirih smereh, pri 
     \end{tabular}
 \end{table}
 
-Interakcija s celico v smeri premika se povečuje, z nasprotno pa zmanjšuje. Pri 1,5 nm v levo se $K_B$ poveča z 1,484 na 2,205 meV (+48,7\,\%), $K_Y$ pa zmanjša na 1,027 meV ($-30,8\,\%$). Pri navpičnih premikih se $K_A$ in $K_C$ spreminjata zrcalno. Pri 2 nm koeficient v smeri premika doseže 2,535 meV (+70,9\,\%). Trende prikazujeta sliki \ref{g18:fig:odmik-vodoravno} in \ref{g18:fig:odmik-navpicno}.
+Interakcija s celico v smeri premika se povečuje, z nasprotno pa zmanjšuje. Pri 1,5 nm v levo se $K_B$ poveča z 1,484 na 2,205 meV (+48,7\,\%), $K_Y$ pa zmanjša na 1,027 meV ($-30,8\,\%$). Pri navpičnih premikih se $K_A$ in $K_C$ spreminjata zrcalno. Podobno opazimo tudi pri vodoravnih premikih za $K_B$ in $K_Y$. Trende prikazujeta sliki \ref{g18:fig:odmik-vodoravno} in \ref{g18:fig:odmik-navpicno}.
 
 \begin{figure}[H]
     \centering
@@ -859,7 +859,7 @@ E(P_M)=\sum_{X\in\{A,B,C\}}\sum_{i\in D_X}\sum_{j\in D_M}
 \frac{e^2}{4\pi\varepsilon_0\varepsilon_r\,r_{ij}},\qquad
 r_{ij}=\sqrt{(x_i-x_j)^2+(y_i-y_j)^2}.
 \end{equation}
-Množici $D_X$ in $D_M$ vsebujeta položaja dveh zasedenih pik posamezne celice. $D_X$ upošteva vhodne celice, $D_M$ pa notranjo celico. Vse razdalje in energije za obe možnosti $P_M\in\{-1,+1\}$ smo izračunali v Pythonu.
+Prva vsota gre čez celice A, B in C. Druga gre čez oba elektrona izbrane vhodne celice, tretja pa čez oba elektrona osrednje celice M. Vse razdalje in energije za obe možnosti $P_M\in\{-1,+1\}$ smo izračunali v Pythonu.
 
 \paragraph{Rezultati in primerjava.}
 
@@ -910,7 +910,7 @@ Pri 0 in 1 nm je energijsko ugodnejša pravilna polarizacija $-1$, pri 2 nm pa s
     \end{tabular}}
 \end{table}
 
-Oba modela napovesta enak predznak $P_M$, vendar $S$ in $\Delta E$ nista ista fizikalna količina. Simulacija pri 2 nm pokaže 6/8 pravilnih izhodov, kar podpira splošni trend, ne dokazuje pa, da je napačna prav kombinacija $(+1,-1,-1)$: za to bi morali posebej odčitati njen izhodni signal.
+Oba modela napovesta enak predznak $P_M$. Simulacija pri 2 nm pokaže 6/8 pravilnih izhodov, kar podpira splošni trend, ne dokazuje pa, da je napačna prav kombinacija $(+1,-1,-1)$. Za to bi morali posebej odčitati njen izhodni signal.
 
 \subsubsection{Ugotovitve}
 \label{g18:sec:energijske-ugotovitve}
